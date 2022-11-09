@@ -45,7 +45,7 @@ bk_1 = 1;
 while iter <= maxIter
     %% Lip
     Lip2 = Lip1 + 2*mu^2;
-    Lip = sqrt(Lip2);
+    Lip = sqrt(2*Lip2);
     
     %% update W
     W_k  = W + (bk_1 - 1)/bk * (W - W_1);
